@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Kode Mono";
+}
+
+body {
+    background-image: url(./academia.png);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    margin: 350px 0;
+
+}
+h1{
+    color: #fff;
+}
+main {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    position: relative;
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 2px;
+
+}
+
+hr {
+    border-color: #000000;
+}
+
+.linha {
+    width: 250px;
+    border-color: #000000;
+    margin-top: -15px;
+    position: absolute;
+    top: 260px;
+
+}
+
+.imc {
+    display: flex;
+    flex-direction:row;
+    width: 300px;
+    margin-bottom: 20px 2px;
+}
+
+.caixa1{
+    width: 0;
+    margin-top: 1px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+
+
+p {
+    width: 180px;
+    background-color: #050505;
+    text-align: center;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.caixa{
+    position: relative;
+    top: 50px;
+}
+
+label {
+    font-weight: 900;
+    color: #fff;
+
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 900;
+    border: none;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 50px;
+   
+    
+}
+
+ 
+    
+@media screen and (max-width:790px) {
+  main{ width: 300px;
+    height: 400px;
+}
+button{
+    width: 40%;
+    font-size: 12px;
+    bottom: 20px;
+    height: 20px;
+}
+p{
+    width: 35%;
+    font-size: 12px;
+}
+input{
+    width: 50%;
+    
+}
+label{font-size: 12px;}
+.imc{
+    font-size: 12px;
+    margin-left: 70px;
+    text-align: start;
+    position: relative;
+}
+.caixa{
+    top: 5px;
+}
+}
+
